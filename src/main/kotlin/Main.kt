@@ -19,8 +19,10 @@ fun nickNames(name1: String, name2: String, name3: String, name4: String){
 // function that prints out the names of the cities in the correct grammatical case.
 
 fun citiesNames() {
-    var cities = arrayOf("harare", "mumbayi", "dodoma", "jaktara")
-    println(cities.map {it.capitalize()}.sorted())
+     var cities = arrayOf("harare", "mumbai", "dodoma", "jakarta")
+     for(city in cities){
+        println(city.capitalize())
+    }
 }
 
 // function
