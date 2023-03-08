@@ -4,7 +4,8 @@ fun main(args: Array<String>){
     nickNames("Sonia", "Sam", "Claudine", "Gregoire")
     citiesNames()
     intNumbers()
-    println(pets("Max", "Kiki", "Boy"))
+    var pet = pets("Max", "Kiki", "Boy")
+    println(pet)
 }
 
 
